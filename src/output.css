@@ -12,12 +12,17 @@
     --color-orange-300: oklch(83.7% 0.128 66.29);
     --color-orange-500: oklch(70.5% 0.213 47.604);
     --color-orange-600: oklch(64.6% 0.222 41.116);
+    --color-amber-300: oklch(87.9% 0.169 91.605);
+    --color-amber-700: oklch(55.5% 0.163 48.998);
+    --color-green-300: oklch(87.1% 0.15 154.449);
+    --color-green-500: oklch(72.3% 0.219 149.579);
     --color-blue-400: oklch(70.7% 0.165 254.624);
     --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-gray-200: oklch(92.8% 0.006 264.531);
     --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-gray-500: oklch(55.1% 0.027 264.364);
+    --color-gray-800: oklch(27.8% 0.033 256.848);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -223,6 +228,9 @@
   .mr-3 {
     margin-right: calc(var(--spacing) * 3);
   }
+  .mr-5 {
+    margin-right: calc(var(--spacing) * 5);
+  }
   .mr-20 {
     margin-right: calc(var(--spacing) * 20);
   }
@@ -256,6 +264,12 @@
   .ml-6 {
     margin-left: calc(var(--spacing) * 6);
   }
+  .ml-7 {
+    margin-left: calc(var(--spacing) * 7);
+  }
+  .ml-8 {
+    margin-left: calc(var(--spacing) * 8);
+  }
   .ml-24 {
     margin-left: calc(var(--spacing) * 24);
   }
@@ -279,6 +293,12 @@
   }
   .h-8 {
     height: calc(var(--spacing) * 8);
+  }
+  .h-9 {
+    height: calc(var(--spacing) * 9);
+  }
+  .h-10 {
+    height: calc(var(--spacing) * 10);
   }
   .h-12 {
     height: calc(var(--spacing) * 12);
@@ -318,6 +338,12 @@
   }
   .w-8 {
     width: calc(var(--spacing) * 8);
+  }
+  .w-9 {
+    width: calc(var(--spacing) * 9);
+  }
+  .w-10 {
+    width: calc(var(--spacing) * 10);
   }
   .w-12 {
     width: calc(var(--spacing) * 12);
@@ -424,9 +450,6 @@
   .gap-10 {
     gap: calc(var(--spacing) * 10);
   }
-  .overflow-x-scroll {
-    overflow-x: scroll;
-  }
   .overflow-y-scroll {
     overflow-y: scroll;
   }
@@ -454,6 +477,15 @@
   .border-red-600 {
     border-color: var(--color-red-600);
   }
+  .bg-amber-300 {
+    background-color: var(--color-amber-300);
+  }
+  .bg-amber-700 {
+    background-color: var(--color-amber-700);
+  }
+  .bg-black {
+    background-color: var(--color-black);
+  }
   .bg-gray-200 {
     background-color: var(--color-gray-200);
   }
@@ -465,6 +497,15 @@
   }
   .bg-gray-500 {
     background-color: var(--color-gray-500);
+  }
+  .bg-gray-800 {
+    background-color: var(--color-gray-800);
+  }
+  .bg-green-300 {
+    background-color: var(--color-green-300);
+  }
+  .bg-green-500 {
+    background-color: var(--color-green-500);
   }
   .bg-orange-600 {
     background-color: var(--color-orange-600);
